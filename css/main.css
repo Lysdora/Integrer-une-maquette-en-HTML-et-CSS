@@ -47,6 +47,12 @@ header {
     }
 }
 
+@media (max-width: 768px) {
+    header {
+        background-image: linear-gradient(rgba(161, 0, 255, 0.35), rgba(161, 0, 255, 0.41)), url(../img/bg-tatoo-mobile.jpg); 
+    }
+}
+
 
 
 /*
