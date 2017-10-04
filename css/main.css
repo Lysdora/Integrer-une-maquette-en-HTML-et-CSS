@@ -1,4 +1,8 @@
-/* Header Style */
+/*
+################
+               General
+################
+*/
 
 body {
     font-size: 1em;
@@ -7,8 +11,20 @@ body {
     font-weight: 300;
 }
 
+section {
+    padding-top: 65px;
+    padding-bottom: 65px;
+
+}
+
+/*
+################
+               start Header
+################
+*/
+
 header {
-    background-image: linear-gradient(rgba(161, 0, 255, 0.35), rgba(161, 0, 255, 0.41)), url(../img/bg-header.jpg);
+    background-image: linear-gradient(rgba(161, 0, 255, 0.35), rgba(161, 0, 255, 0.41)), url(../img/bg-tatoo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -18,7 +34,11 @@ header {
 
 }
 
-/* fix padding-top header */
+/*
+################
+               Start Media Queries Header 
+################
+*/
 
 @media (min-width: 768px) {
     header {
@@ -26,7 +46,12 @@ header {
     }
 }
 
-/* Navigation */
+
+/*
+################
+               Start Navigation 
+################
+*/
 
 .navbar-light .navbar-nav .nav-link {
     color: #fff;
@@ -57,7 +82,11 @@ header {
     background: none !important;
 }
 
-/* style nav-link "join" */
+/*
+################
+               Start Style Button Navigation 
+################
+*/
 
 .button {
     background-color: #a100ff;
@@ -78,7 +107,11 @@ header {
     margin-left: 10px;
 }
 
-/* Navigation style mobile */
+/*
+################
+               Start Media Queries Navigation 
+################
+*/
 
 @media (max-width: 768px) {
     .navbar {
@@ -106,7 +139,11 @@ header {
 }
 
 
-/* hero section */
+/*
+################
+               Start Hero Section 
+################
+*/
 
 .hero-content {
     padding-top: 70px;
@@ -118,16 +155,20 @@ header {
 }
 
 
-/* Section desing style */
+/*
+################
+               Start Desin-Style 
+################
+*/
 
-.desing-style {
+.desing-tattoo {
     background-image: url(../img/bg-desing-style.png);
     background-repeat: repeat;
 }
 
 /* all section padding-top */
 
-.desing-style h2,
+.desing-tattoo h2,
 .features-app h2,
 .guidelines h2 {
     color: #333b42;
@@ -135,7 +176,7 @@ header {
     margin-bottom: 50px;
 }
 
-.desing-style p,
+.desing-tattoo p,
 .features-app p,
 .guidelines p {
     color: #74797e;
@@ -165,18 +206,14 @@ h3 {
 
 }
 
-section {
-    padding-top: 65px;
 
-
-}
 
 /* section guideline nav pill style */
 
 .spacer {
     /*    padding:  70px 0px;*/
     margin-bottom: 30px;
-    
+
 
 }
 
