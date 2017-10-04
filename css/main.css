@@ -157,7 +157,7 @@ header {
 
 /*
 ################
-               Start Desin-Style 
+               Start Desin-Tattoo 
 ################
 */
 
@@ -166,7 +166,6 @@ header {
     background-repeat: repeat;
 }
 
-/* all section padding-top */
 
 .desing-tattoo h2,
 .features-app h2,
@@ -182,6 +181,15 @@ header {
     color: #74797e;
     font-weight: 400;
     margin-bottom: 50px
+}
+
+.para-carousel {
+    color: #d9cadc !important;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.39);
+}
+.img-carousel {
+filter: grayscale(75%);
 }
 
 /* Section Features App style */
