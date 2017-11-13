@@ -1,6 +1,6 @@
 # Integrer-une-maquette-en-HTML-et-CSS
 
-## Projet OpenClassRooms
+
 
 Dans cet exercice, vous vous entraînerez à gerer un projet avec un client dans sa totalité, c'est-à-dire de la rédaction du cahier des charges à la livraison finale.
 
